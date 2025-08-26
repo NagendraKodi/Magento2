@@ -1,0 +1,8 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+   <preference for="Magento\Catalog\Model\Product\Attribute\Backend\TierPrice\UpdateHandler"
+               type="Orange\CustomTierPrice\Model\Product\Attribute\Backend\TierPrice\UpdatePriceHandler" />
+   <preference for="Magento\Catalog\Model\Product\Attribute\Backend\TierPrice\SaveHandler"
+               type="Orange\CustomTierPrice\Model\Product\Attribute\Backend\TierPrice\SavePriceHandler" />
+   <preference for="Magento\Catalog\Model\ResourceModel\Product\Attribute\Backend\Tierprice"
+               type="Orange\CustomTierPrice\Model\ResourceModel\Product\Attribute\Backend\DataColumnUpdate" />
+</config>
