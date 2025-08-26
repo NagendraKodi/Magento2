@@ -6,7 +6,8 @@ The `Orange_CustomTierPrice` module is a custom Magento 2 extension that adds a 
 ## Features
 - Adds a custom column to the Tier Price grid in the admin panel.
 - Allows customization of the column width and styling.
-- Fully compatible with Magento 2.
+- Fully compatible with Magento 2.4.6.
+<img width="649" height="356" alt="image" src="https://github.com/user-attachments/assets/5f7141a1-2437-4a91-a915-16430b438518" />
 
 ## Compatibility
 - Tested on Magento 2.4.6.
