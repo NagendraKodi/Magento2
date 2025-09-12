@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="custom_import">
+        <column xsi:type="int" name="entity_id" padding="10" unsigned="true" nullable="false" comment="Entity Id" identity="true" />
+        <column xsi:type="varchar" name="name" nullable="false" length="255" comment="Product Name"/>
+        <column xsi:type="int" name="duration" padding="10" unsigned="true" nullable="false" comment="Duration"/>
+        <constraint xsi:type="primary" referenceId="CUSTOM_IMPORT_ID_PRIMARY">
+            <column name="entity_id"/>
+        </constraint>
+    </table>
+</schema>
